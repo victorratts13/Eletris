@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electris open Conversion 1.0</title>
+    <link rel="stylesheet" href="./libs/bootstrap.css">
+    <script src="./libs/jquery.slim.js"></script>
+    <script src="./libs/popper.js"></script>
+    <script src="./libs/bootstrap.js"></script>
+    <script src="./libs/jquery.js"></script>
+
+    <script src="./libs/core.js"></script>
+</head>
+
+<body style="background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
+    background-blend-mode: multiply,multiply;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light"
+        style="background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); color: white;">
+        <a class="navbar-brand" href="#">Electris</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">git</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">&copy; Victor Ratts</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                      <h2> Conversor / formatador </h2>
+                        Insira os dados abaixo.
+                        <div >
+                            <!-- <form id="forms"> -->
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="inputs">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary" value="Processar" id="submits">
+                                </div>
+                            <!-- </form>  -->
+                            <textarea id="show" class="form-control" placeholder="dados processados">
+                                
+                            </textarea>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
